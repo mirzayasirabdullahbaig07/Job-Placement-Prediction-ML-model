@@ -1,54 +1,88 @@
-# AdmitWise
+# 🎓 AdmitWise
 
-[Live Demo](https://job-placement-prediction-ml-model-007.streamlit.app/)
-
-**AdmitWise** is a machine-learning-powered Streamlit application that predicts whether a candidate will get placed in a job (or admitted) based on academic performance and other features. It simplifies decision-making for students and HR teams by providing a data-driven placement (or admission) prediction.
-
----
-
-## About the Project
-
-AdmitWise is designed to help stakeholders (students, HR professionals, academic advisors) make **informed predictions** about job placement or admission outcomes. Rather than relying on gut-feel or superficial screening, users can input real academic performance and background features to get a probability-based prediction.
+An **AI-powered interactive web application** built with **Streamlit** that predicts whether a candidate will get placed in a job (or admitted) based on academic performance and other features.  
+The model simplifies decision-making for students, HR teams, and academic advisors by providing **data-driven placement predictions**.
 
 ---
 
-## How It Works
+## 🚀 Demo  
+🔗 [Live Demo on Streamlit](https://job-placement-prediction-ml-model-007.streamlit.app/)  
 
-1. The user provides inputs for key features like SSC percentage, HSC percentage, degree percentage, MBA percentage, work experience, specialization, gender, and more.
-2. These inputs are one-hot encoded (for categorical features) to match the model’s training format.
-3. A **Logistic Regression** model (trained offline) is loaded using Pickle.
-4. The model outputs a **binary prediction**: “Placed” or “Not Placed”.
-5. The result is shown on the Streamlit web app in a user-friendly way.
+## 🚀 Video Demo
+https://github.com/user-attachments/assets/7c82904a-b4d1-4444-aae5-ed887995955d
 
 ---
 
-## Features
-
-- Input via **Streamlit UI** with number inputs and dropdowns  
-- One-hot encoding of categorical variables to match training data  
-- Real-time prediction of placement status  
-- Lightweight and easy to use for non-technical users  
-- Easy to extend: you can retrain the model with new data or add new features  
+## 📌 Features  
+- Predicts **placement or admission status** instantly.  
+- User-friendly **Streamlit UI** with number inputs and dropdowns.  
+- One-hot encoding of categorical variables to match the model’s training data.  
+- Lightweight and easy to use for non-technical users.  
+- Easily extendable: retrain the model with new data or add new features.  
+- Shows **binary prediction**: “Placed” or “Not Placed” along with probability.
 
 ---
 
-## Tech Stack
+## 🔍 How It Works  
+1. The user inputs academic and background features, including:  
+   - SSC percentage  
+   - HSC percentage  
+   - Degree percentage  
+   - MBA percentage  
+   - Work experience  
+   - Specialization  
+   - Gender  
+   - And more  
+2. Inputs are **one-hot encoded** for categorical features.  
+3. A **Logistic Regression model** (trained offline) is loaded using Pickle.  
+4. The model outputs a **binary prediction**: “Placed” or “Not Placed”.  
+5. The result is displayed on the Streamlit app in a clear, user-friendly format.
+
+---
+
+## ⚙️ Tech Stack  
 
 | Component | Technology / Library |
-|---|---|
+|-----------|--------------------|
 | Frontend / Web | Streamlit |
 | Model | Logistic Regression |
 | ML Framework | Scikit-learn |
 | Data Handling | Pandas, NumPy |
 | Model Persistence | Pickle |
-| Visualization (optional / during development) | Matplotlib, Seaborn |
-| Environment | Python |
+| Visualization (optional) | Matplotlib, Seaborn |
+| Environment | Python 3.9+ |
 
 ---
 
-## Installation & Setup
+## 📸 Screenshots
+### 🏠 Home Page
+<img width="1890" height="802" alt="image" src="https://github.com/user-attachments/assets/a91673bf-888f-44b1-a20d-269c8dc1488e" />
 
-1. **Clone the repository**  
-   ```bash
-   git clone https://github.com/your-username/admitwise.git
-   cd admitwise
+### 🧑 Person is placed for job
+<img width="1904" height="814" alt="image" src="https://github.com/user-attachments/assets/daa21d60-e59a-4bec-ac61-b4ce35bf9a96" />
+
+### 📄 Person is not placed for job
+<img width="1897" height="829" alt="image" src="https://github.com/user-attachments/assets/734e7d56-5de8-4b78-b26e-4764cdb8d718" />
+
+---
+
+## 👨‍💻 Author
+**Mirza Yasir Abdullah Baig**  
+
+- 🌐 [Kaggle](https://www.kaggle.com/mirzayasirabdullah07)  
+- 💼 [LinkedIn](https://www.linkedin.com/in/mirza-yasir-abdullah-baig/)  
+- 💻 [GitHub](https://github.com/mirzayasirabdullahbaig07)  
+
+---
+
+## ⚠️ Disclaimer
+This project is for **educational purposes only** and should **NOT** be used for real-world business decisions without further validation.  
+
+---
+
+## 📂 Installation & Setup  
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/admitwise.git
+cd admitwise
