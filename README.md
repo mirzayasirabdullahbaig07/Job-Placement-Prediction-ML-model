@@ -9,6 +9,7 @@ The model simplifies decision-making for students, HR teams, and academic adviso
 🔗 [Live Demo on Streamlit](https://job-placement-prediction-ml-model-007.streamlit.app/)  
 
 ## 🚀 Video Demo
+
 https://github.com/user-attachments/assets/7c82904a-b4d1-4444-aae5-ed887995955d
 
 ---
